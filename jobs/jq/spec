@@ -1,0 +1,8 @@
+---
+name: jq
+
+templates: {}
+
+packages: [jq]
+
+properties: {}
