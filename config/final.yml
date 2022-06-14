@@ -2,4 +2,4 @@ name: profile-boshrelease
 blobstore:
   provider: s3
   options:
-    bucket_name: orange-dfy-bosh-profile-release
+    bucket_name: orange-dfy-bosh-dev-releases
