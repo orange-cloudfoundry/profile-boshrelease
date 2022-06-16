@@ -1,4 +1,4 @@
-name: profile-boshrelease
+name: profile
 version: 0.1.3
 commit_hash: 2214cd3
 uncommitted_changes: true
