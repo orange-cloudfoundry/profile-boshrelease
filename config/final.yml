@@ -1,4 +1,4 @@
-name: profile-boshrelease
+name: profile
 blobstore:
   provider: s3
   options:
