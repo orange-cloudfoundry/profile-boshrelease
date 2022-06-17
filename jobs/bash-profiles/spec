@@ -1,0 +1,15 @@
+---
+dependencies:
+- bat
+- fd
+- fping
+- jq
+- ripgrep
+- yq
+name: bash-profiles
+packages:
+- bash-profiles
+properties: {}
+templates:
+  pre-start: bin/pre-start
+...

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+>/etc/profile.d/01-bash-profiles.sh echo . /var/vcap/packages/bash-profiles/profile.sh
