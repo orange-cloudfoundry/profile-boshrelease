@@ -1,0 +1,7 @@
+---
+name: fping
+
+dependencies: []
+
+files:
+  - fping.tar.gz
