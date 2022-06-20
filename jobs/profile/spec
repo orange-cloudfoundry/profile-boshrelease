@@ -1,0 +1,13 @@
+---
+name: jq
+
+templates: {}
+
+packages:
+  - jq
+  - yq
+  - bat
+  - ripgrep
+  - fping
+
+properties: {}
