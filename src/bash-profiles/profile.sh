@@ -200,6 +200,16 @@ complete -F __complete_go- go-
 export PYTHONDONTWRITEBYTECODE=1
 export PS1='\u@\h:\w\$ '
 
+
+while read -r directory
+do
+	isin ":{$directory}:" "$PATH" ||
+	PATH="${PATH}:${directory}"
+done < <( find /var/vcap/packages/{bat,fping,jq,ripgrep,yq}/ -type f -executable -exec dirname {} \; | sort -u)
+unset directory
+export PATH
+
+
 if [ -n "${BASH_SOURCE:-}" ] && [ -z "$PROFILE_BASE" ]
 then
 	PROFILE_BASE=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
