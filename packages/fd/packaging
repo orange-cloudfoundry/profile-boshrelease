@@ -5,4 +5,4 @@ set -u
 
 tar --strip-components=1 -xf fd.tar.gz
 install -D ./fd "${BOSH_INSTALL_TARGET}/bin/fd"
-cp -t "${BOSH_INSTALL_TARGET}/" autocomplete/fd.bash
+install -m 0644 autocomplete/fd.bash "${BOSH_INSTALL_TARGET}/autocomplete/"

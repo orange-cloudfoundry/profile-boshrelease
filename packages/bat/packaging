@@ -1,7 +1,8 @@
-set -ex
+#!/bin/bash
 
-tar xf bat.tar.gz
-version=$(find . -mindepth 1 - maxdepth 1 -type d -name "bat-*" | grep -Po "v[\d]+(\.[\d]+){2}")
-pushd bat-"$version"-x86_64-unknown-linux-gnu
-  install -D ./bat "$BOSH_INSTALL_TARGET"/bin/bat
-popd
+set -e
+set -u
+
+tar --strip-components=1 -xf bat.tar.gz
+install -D ./bat "${BOSH_INSTALL_TARGET}/bin/bat"
+install -D -m 0644 autocomplete/bat.bash "${BOSH_INSTALL_TARGET}/autocomplete/"
