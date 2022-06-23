@@ -1,4 +1,28 @@
+bat.tar.gz:
+  size: 2746491
+  object_id: c9160ed0-acae-4690-7d98-237519207cef
+  sha: sha256:5e6d199219578fed98483ad132f8207edc23bd072b36c22237edd51aed6b2af9
+fd.tar.gz:
+  size: 1064900
+  object_id: de2a21d9-d60f-4e90-57c3-adb561a26001
+  sha: sha256:c27a193f8a7ad18c385bcea13e2a8764c8716a1d7fd89cbbdbd65212596fe5f8
+fping.tar.gz:
+  size: 191224
+  object_id: fdbeac39-43b8-4614-6cbb-6ccf68374ba8
+  sha: sha256:1ee5268c063d76646af2b4426052e7d81a42b657e6a77d8e7d3d2e60fd7409fe
+jq:
+  size: 3953824
+  object_id: f6b4f3b2-5b92-48a6-65e9-12fca6cfadad
+  sha: sha256:af986793a515d500ab2d35f8d2aecd656e764504b789b66d7e1a0b727a124c44
+ripgrep.tar.gz:
+  size: 2109801
+  object_id: 4f3160b1-53ba-4af2-5e37-a674f963ac43
+  sha: sha256:ee4e0751ab108b6da4f47c52da187d5177dc371f0f512a7caaec5434e711c091
 source/jq:
   size: 3953824
   object_id: c2d69b4b-df6e-40c8-7d68-d8bd7541c4cf
   sha: sha256:af986793a515d500ab2d35f8d2aecd656e764504b789b66d7e1a0b727a124c44
+yq:
+  size: 10180037
+  object_id: dfce5a71-6a7e-48ec-7173-b6d9020ae06a
+  sha: sha256:cb66f4382a65d0443824f0a0fcda9c5c5f7b6bd4e4346539b2f0abc647ecf0ea
