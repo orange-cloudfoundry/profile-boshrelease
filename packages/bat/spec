@@ -1,7 +1,4 @@
 ---
 name: bat
-
-dependencies: []
-
 files:
   - bat.tar.gz

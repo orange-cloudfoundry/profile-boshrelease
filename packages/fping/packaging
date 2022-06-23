@@ -1,9 +1,6 @@
 set -ex
 
-tar xf fping.tar.gz
-version=$(find . -mindepth 1 -maxdepth 1 -type d -name "fping-*" | grep -Po "[\d]+(\.[\d]+){1,2}")
-pushd fping-"$version"
-  ./configure --prefix="$BOSH_INSTALL_TARGET"
-  make
-  make install
-popd
+tar --strip-components=1 -xf fping.tar.gz
+./configure --prefix="$BOSH_INSTALL_TARGET"
+make
+make install

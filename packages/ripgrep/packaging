@@ -3,7 +3,6 @@
 set -e
 set -u
 
-tar xf ripgrep.tar.gz
 tar --strip-components=1 -xf ripgrep.tar.gz
 install -D ./rg "${BOSH_INSTALL_TARGET}/bin/rg"
 install -m 0644 complete/rg.bash "${BOSH_INSTALL_TARGET}/autocomplete/"

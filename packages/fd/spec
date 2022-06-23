@@ -1,7 +1,4 @@
 ---
 name: fd
-
-dependencies: []
-
 files:
   - fd.tar.gz
