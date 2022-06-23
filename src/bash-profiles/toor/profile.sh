@@ -19,7 +19,7 @@ alias ...='cd ../..'
 export LESS='-c -i -M -R'
 export LESSHISTFILE='-'
 
-aexport VISUAL='vim' EDITOR='vim'
+export VISUAL='vim' EDITOR='vim'
 
 export HISTCONTROL='ignoredups:erasedups'
 export HISTSIZE=1000
