@@ -55,7 +55,7 @@ addons:
       stemcell:
         - os: ubuntu-bionic
     jobs:
-      - name: profile
+      - name: bash-profiles
         properties: {}
         release: profile
 
