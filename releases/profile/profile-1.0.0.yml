@@ -1,0 +1,17 @@
+name: profile
+version: 1.0.0
+commit_hash: e8cf9a6
+uncommitted_changes: true
+jobs:
+- name: jq
+  version: 148a36f81da6bf045e0fc77372e97972ea5c86c32917caf8f839d847ef0e4ba3
+  fingerprint: 148a36f81da6bf045e0fc77372e97972ea5c86c32917caf8f839d847ef0e4ba3
+  sha1: sha256:eb2d7b9dba7f47666ba9be9428b160f3deac5185aea504c7a5b5c992299c5802
+  packages:
+  - jq
+packages:
+- name: jq
+  version: a9c8e6c76ccb5e8ed74894c26ff3c7350a1924d73d35cdaf534ff4f0a9e1b859
+  fingerprint: a9c8e6c76ccb5e8ed74894c26ff3c7350a1924d73d35cdaf534ff4f0a9e1b859
+  sha1: sha256:6b7dc9f4605549be73eda08b764b63b7fad78bd8cfa5a0b47127542a2c8e402f
+  dependencies: []
