@@ -1,8 +1,8 @@
 ---
 files:
-  - bash-profiles/profile.sh
-  - bash-profiles/psycofdj/genprompt.sh
-  - bash-profiles/psycofdj/profile.sh
-  - bash-profiles/toor/profile.sh
+- bash-profiles/profile.sh
+- bash-profiles/psycofdj/genprompt.sh
+- bash-profiles/psycofdj/profile.sh
+- bash-profiles/toor/profile.sh
 name: bash-profiles
 ...

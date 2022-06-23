@@ -10,7 +10,7 @@ all: jobs/bash-profiles/spec packages/bash-profiles/spec README.md
 jobs/bash-profiles/spec: $(wildcard packages/*)
 	$(eval tempfile := $(shell mktemp))
 	@${y2j} < "$@" | \
-	deps="$(shell ${deps})" jq '.dependencies=(env.deps|split(" "))' | \
+	deps="$(shell ${deps})" jq '.packages=(env.deps|split(" "))' | \
 	${j2y} > "${tempfile}"
 	@cat "${tempfile}" > "$@"
 	@rm -fr "${tempfile}"
@@ -20,7 +20,7 @@ packages/bash-profiles/spec: $(wildcard packages/*) $(call wildcard_recursive,sr
 	@${y2j} < "$@" | \
 	deps="$(shell ${deps})" \
 	files="$(shell find src -path '*/bash-profiles/*' -type f -printf '%P\n'|sort)" \
-	jq '.dependencies=(env.deps|split(" "))|.files=(env.files|split(" "))' | \
+	jq '.files=(env.files|split(" "))' | \
 	${j2y} > "${tempfile}"
 	@cat "${tempfile}" > "$@"
 	@rm -fr "${tempfile}"

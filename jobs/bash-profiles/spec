@@ -1,13 +1,12 @@
 ---
 name: bash-profiles
 packages:
-  - bash-profiles
-  - bat
-  - fd
-  - fping
-  - jq
-  - ripgrep
-  - yq
+- bat
+- fd
+- fping
+- jq
+- ripgrep
+- yq
 templates:
   pre-start: bin/pre-start
 ...
