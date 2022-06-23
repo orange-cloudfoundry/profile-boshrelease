@@ -1,6 +1,7 @@
 ---
 name: bash-profiles
 packages:
+- bash-profiles
 - bat
 - fd
 - fping
