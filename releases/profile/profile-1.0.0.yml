@@ -1,0 +1,53 @@
+name: profile
+version: 1.0.0
+commit_hash: c160c03
+uncommitted_changes: true
+jobs:
+- name: bash-profiles
+  version: 5844459e4321e2897685a4a917bc4413abdeba67083836d2821c17bfcdc74776
+  fingerprint: 5844459e4321e2897685a4a917bc4413abdeba67083836d2821c17bfcdc74776
+  sha1: sha256:594f7f352e4095715a719ac01b5bcbd1b88ab2b8ff66b5610ec1584482d78ad2
+  packages:
+  - bash-profiles
+  - bat
+  - fd
+  - fping
+  - jq
+  - ripgrep
+  - yq
+packages:
+- name: bash-profiles
+  version: 267c1c6a344c2e502ac0a86c0733be50fa2c1f4f5c9b41982fa1c00cf576671d
+  fingerprint: 267c1c6a344c2e502ac0a86c0733be50fa2c1f4f5c9b41982fa1c00cf576671d
+  sha1: sha256:bcf66f7e124e711185a6e9155411e2d7c06f18d68f1b043099fb3ab3329ac892
+  dependencies: []
+- name: bat
+  version: 491063a33c2fa77a0295d8eb91834ee9209adca8aeed58aff35136bb0835ee98
+  fingerprint: 491063a33c2fa77a0295d8eb91834ee9209adca8aeed58aff35136bb0835ee98
+  sha1: sha256:271169b587c6f4f8b709751a03b74b21b44c9f338137c94db2133d258825b6c4
+  dependencies: []
+- name: fd
+  version: 9cacef615c706100a7b31039f4e77106570b61f03fea28a98130eba32d4da730
+  fingerprint: 9cacef615c706100a7b31039f4e77106570b61f03fea28a98130eba32d4da730
+  sha1: sha256:bfd2e6d941e73f87765e145a8685d2c8b5e15fc38f6774bdf8bc6137f47fa23d
+  dependencies: []
+- name: fping
+  version: 55afe9d95d17b316787434316e16c6cd6dc0874b453fb8b8ef458b44e8fdb060
+  fingerprint: 55afe9d95d17b316787434316e16c6cd6dc0874b453fb8b8ef458b44e8fdb060
+  sha1: sha256:c42a30856241eb51ad2d21c883d4ce1ec6188c78ab89ff8da54552642f8e9bae
+  dependencies: []
+- name: jq
+  version: 06c3131efd526bb706984c3ea35a4fcb9c5a0349fc3a362f0458c5388980d04c
+  fingerprint: 06c3131efd526bb706984c3ea35a4fcb9c5a0349fc3a362f0458c5388980d04c
+  sha1: sha256:b0fd46c286fc4c0086f229a2edfdac36ec9a868995206cc705bde54dcae6ec76
+  dependencies: []
+- name: ripgrep
+  version: 8f5f949aaca56ec7561c3abc2ab0f4d44566e4dcf3817c52b23b5fe815f0193e
+  fingerprint: 8f5f949aaca56ec7561c3abc2ab0f4d44566e4dcf3817c52b23b5fe815f0193e
+  sha1: sha256:ef20559fa03a559c1eaceaf25142d084b514ad123c8cbb13f71cb3dcd9105d20
+  dependencies: []
+- name: yq
+  version: 7b4b8af13c5c5388c1146c4e81e2bd78714a54926616f6e548646e95c54fee4b
+  fingerprint: 7b4b8af13c5c5388c1146c4e81e2bd78714a54926616f6e548646e95c54fee4b
+  sha1: sha256:fe2bcfe371473389d8f7f62bb52ac08c148d30a1311ff0e7ed73f35302715e74
+  dependencies: []
