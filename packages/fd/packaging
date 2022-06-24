@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+set -u
+
+tar --strip-components=1 -xf fd.tar.gz
+install -D ./fd "${BOSH_INSTALL_TARGET}/bin/fd"
+install -D -m 0644 autocomplete/fd.bash "${BOSH_INSTALL_TARGET}/autocomplete/fd.bash"

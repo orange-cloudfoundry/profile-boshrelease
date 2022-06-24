@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+set -u
+
+tar --strip-components=1 -xf bat.tar.gz
+install -D ./bat "${BOSH_INSTALL_TARGET}/bin/bat"
+install -D -m 0644 autocomplete/bat.bash "${BOSH_INSTALL_TARGET}/autocomplete/bat.bash"

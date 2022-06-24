@@ -1,0 +1,7 @@
+---
+name: ripgrep
+
+dependencies: []
+
+files:
+  - ripgrep.tar.gz

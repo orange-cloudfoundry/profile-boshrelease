@@ -1,0 +1,3 @@
+set -ex
+
+install -D yq "$BOSH_INSTALL_TARGET"/bin/yq

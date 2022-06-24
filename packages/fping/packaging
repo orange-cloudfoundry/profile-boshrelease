@@ -1,0 +1,6 @@
+set -ex
+
+tar --strip-components=1 -xf fping.tar.gz
+./configure --prefix="$BOSH_INSTALL_TARGET"
+make
+make install
