@@ -205,7 +205,7 @@ while read -r directory
 do
 	isin ":{$directory}:" "$PATH" ||
 	PATH="${PATH}:${directory}"
-done < <( find /var/vcap/packages/{bat,fping,jq,ripgrep,yq}/ -type f -executable -exec dirname {} \; | sort -u)
+done < <( find /var/vcap/packages/{bat,fd,fping,jq,ripgrep,yq}/ -type f -executable -exec dirname {} \; | sort -u)
 unset directory
 export PATH
 
