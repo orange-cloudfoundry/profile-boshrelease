@@ -6,9 +6,11 @@ This BOSH release provides additional binaries and BASH profiles for day-to-day 
 
 - [`as-tree`](https://github.com/jez/as-tree), from Jake Zimmerman
 - [`bat`](https://github.com/sharkdp/bat), from David Peter
+- [`fd`](https://github.com/sharkdp/fd), from David Peter
 - [`fping`](https://fping.org/)
 - [`jq`](https://github.com/stedolan/jq/), from Stephen Dolan, to manipulate JSON files
 - [`rg`](https://github.com/BurntSushi/ripgrep), from Andrew Gallant
+- [`yq`](https://github.com/mikefarah/yq), from Mike Farah
 
 ## BASH profiles
 
@@ -62,7 +64,7 @@ addons:
 
 releases:
   - name: profile
-    version: "0.1.5"
-    url: https://github.com/orange-cloudfoundry/profile-boshrelease/releases/download/v0.1.5/profile-0.1.5.tgz
+    version: "2.0.3"
+    url: https://github.com/orange-cloudfoundry/profile-boshrelease/releases/download/v2.0.3/profile-2.0.3.tgz
     sha1: ...
 ```
