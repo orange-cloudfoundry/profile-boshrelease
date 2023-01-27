@@ -203,7 +203,7 @@ export PS1='\u@\h:\w\$ '
 
 while read -r directory
 do
-	isin ":{$directory}:" "$PATH" ||
+	isin ":${directory}:" "$PATH" ||
 	PATH="${PATH}:${directory}"
 done < <( find /var/vcap/packages/{bat,fd,fping,jq,ripgrep,yq}/ -type f -executable -exec dirname {} \; | sort -u)
 unset directory
