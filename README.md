@@ -4,6 +4,7 @@ This BOSH release provides additional binaries and BASH profiles for day-to-day 
 
 ## Binaries
 
+- [`as-tree`](https://github.com/jez/as-tree), from Jake Zimmerman
 - [`bat`](https://github.com/sharkdp/bat), from David Peter
 - [`fping`](https://fping.org/)
 - [`jq`](https://github.com/stedolan/jq/), from Stephen Dolan, to manipulate JSON files

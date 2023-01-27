@@ -1,6 +1,7 @@
 ---
 name: bash-profiles
 packages:
+- as-tree
 - bash-profiles
 - bat
 - fd
