@@ -1,4 +1,7 @@
 #!/bin/sh
 
 >/etc/profile.d/01-bash-profiles.sh echo . /var/vcap/packages/bash-profiles/profile.sh
-find -L /var/vcap/packages/ -maxdepth 3 -path '*complete/*.bash' -exec ln -rs {} /etc/bash_completion.d/ \; || true
+
+if [ -d /etc/bash_completion.d ]
+then find -L /var/vcap/packages/ -maxdepth 3 -path '*complete/*.bash' -exec ln -rs {} /etc/bash_completion.d/ \; || true
+fi
