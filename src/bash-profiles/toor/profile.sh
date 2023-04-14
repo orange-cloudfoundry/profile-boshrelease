@@ -16,6 +16,8 @@ alias ...='cd ../..'
 
 # variables ##################################################################
 
+export BAT_THEME=TwoDark
+export BAT_STYLE=plain
 export LESS='-c -i -M -R'
 export LESSHISTFILE='-'
 
