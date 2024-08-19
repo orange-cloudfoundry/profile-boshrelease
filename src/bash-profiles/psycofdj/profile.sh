@@ -58,7 +58,7 @@ function __prompt_export() {
   export NAME=$(cat /var/vcap/instance/name)
   export STATUS="faulty"
   if [ "${USER}" = "root" ]; then
-    MONIT_STATUS=$(monit status 2>&1 | grep status)
+    MONIT_STATUS=$(monit status 2>&1 | grep -P "^[\s]+status[\s]+[^\s]+")
     if [ -n "$MONIT_STATUS" ]
     then
       echo "$MONIT_STATUS" |
