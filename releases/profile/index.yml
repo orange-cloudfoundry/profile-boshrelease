@@ -93,4 +93,6 @@ builds:
     version: 7.0.4
   fe7d3f6c-a61e-4176-4244-db1eea467f7e:
     version: 3.1.0
+  fe9cc376-7ce9-4807-562d-bd6baff75207:
+    version: 10.3.0
 format-version: "2"
