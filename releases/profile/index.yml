@@ -39,6 +39,8 @@ builds:
     version: 5.1.0
   52a960bb-18ea-44c5-7ee8-ffa109c8b6a2:
     version: 10.2.3
+  543c5791-59b2-4342-51a5-6cc9af6803eb:
+    version: 10.11.1
   586f7dc8-ee37-4a98-6479-d9c61ed5f075:
     version: 10.6.1
   5b8f67ad-7b2c-42cb-64f6-a6e09c6ec10a:
