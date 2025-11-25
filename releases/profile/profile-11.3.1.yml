@@ -1,0 +1,59 @@
+name: profile
+version: 11.3.1
+commit_hash: b7d2df0
+uncommitted_changes: true
+jobs:
+- name: bash-profiles
+  version: e7f6f19f705ec36050b7401b13d2efb6ca122b0d521f870932028ea83408f1c3
+  fingerprint: e7f6f19f705ec36050b7401b13d2efb6ca122b0d521f870932028ea83408f1c3
+  sha1: sha256:196faf31d5676fc5ff83a7c26c0f4c776ec80986471d4a3b3f6d1afecf1fb8d5
+  packages:
+  - as-tree
+  - bash-profiles
+  - bat
+  - fd
+  - fping
+  - jq
+  - ripgrep
+  - yq
+packages:
+- name: as-tree
+  version: d0e2ff9995090e664067697f49b141b3f4788567c6471b392fe0f1d7a15c2316
+  fingerprint: d0e2ff9995090e664067697f49b141b3f4788567c6471b392fe0f1d7a15c2316
+  sha1: sha256:8f8a8d64f24efe0028523679cee19c35f99f2752bb684cdbd2635fceb8723730
+  dependencies: []
+- name: bash-profiles
+  version: 7ca80750d697e6b2b98815c5a16ee38740a5ce684a0e72d916bbd81a27204b8d
+  fingerprint: 7ca80750d697e6b2b98815c5a16ee38740a5ce684a0e72d916bbd81a27204b8d
+  sha1: sha256:2079adf6f92173e37f9fc0fb807015ec37373780b6aed65010b1c294abb513e9
+  dependencies: []
+- name: bat
+  version: e9587fd897299ffb8cdca174900e02531cf1adefbc7f86de2876288ae56d689d
+  fingerprint: e9587fd897299ffb8cdca174900e02531cf1adefbc7f86de2876288ae56d689d
+  sha1: sha256:a173646c83c6b6691e908b3c8682e91df3c4a56acf688f0565437710ac270b3b
+  dependencies: []
+- name: fd
+  version: 6d6fdfc13640e27b7ccd3c874b4152710d2573c2193b482e5c509aa310a6dee1
+  fingerprint: 6d6fdfc13640e27b7ccd3c874b4152710d2573c2193b482e5c509aa310a6dee1
+  sha1: sha256:2380f4792f107cb492a8fa932bcc8f8e8ffb83dcc1b3eb9bcdfd8eb8769b4765
+  dependencies: []
+- name: fping
+  version: 99fd821174c727b1035c8aacf74638217a86b5753cced6a0bb3994ce0094c22a
+  fingerprint: 99fd821174c727b1035c8aacf74638217a86b5753cced6a0bb3994ce0094c22a
+  sha1: sha256:0feb39aeb011a685acc1a94a6849c154dec0e0c25971eda269ef3c9176418457
+  dependencies: []
+- name: jq
+  version: a3e9e815dfcbb46d64a062e710cd4bed4820d655012f3651b8205990d8afdc89
+  fingerprint: a3e9e815dfcbb46d64a062e710cd4bed4820d655012f3651b8205990d8afdc89
+  sha1: sha256:8f8f99146e31188e53b4b990cb1354cdc611a7cd2c76c069adcbb8d8946d893c
+  dependencies: []
+- name: ripgrep
+  version: 2f631650f6186cc0d37591991f04d4791d0e5ec858d451ad0cb851b0fec2c7a8
+  fingerprint: 2f631650f6186cc0d37591991f04d4791d0e5ec858d451ad0cb851b0fec2c7a8
+  sha1: sha256:2dc5120ec39c0c1b20183708184a09b06b8ed061e81ea6eed934637bf9b16d1c
+  dependencies: []
+- name: yq
+  version: dda09c9abfbca046a2cc6a6e9d44e2af4e339cbc191b796edbdc07ad9fe5a968
+  fingerprint: dda09c9abfbca046a2cc6a6e9d44e2af4e339cbc191b796edbdc07ad9fe5a968
+  sha1: sha256:294bda5b64bca19cf3513503b0ebebc49bab0aa737b804ea1dfefc876b278eef
+  dependencies: []
