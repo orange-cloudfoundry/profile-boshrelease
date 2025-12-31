@@ -11,9 +11,9 @@ fd.tar.gz:
   object_id: 689c8fba-01ec-4b17-7948-3b729e06b20e
   sha: sha256:2b6bfaae8c48f12050813c2ffe1884c61ea26e750d803df9c9114550a314cd14
 fping.tar.gz:
-  size: 195770
-  object_id: c89aaefd-4c21-47e7-451c-4e53b65d48f5
-  sha: sha256:be320771f075e47dd7e5704b485e9bdc7dd11107884345c0f7c18749357f668d
+  size: 215522
+  object_id: b0b92358-42a0-46a3-511e-b4b4f0040876
+  sha: sha256:15c4e32b6c55ff105bafe03e8c91c7ca1b2eda31bf9a7127326bb87887ee18fe
 jq:
   size: 2255816
   object_id: bc111219-86df-435f-60b6-7beb123b64bb
