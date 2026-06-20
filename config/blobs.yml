@@ -15,9 +15,9 @@ fping.tar.gz:
   object_id: b0b92358-42a0-46a3-511e-b4b4f0040876
   sha: sha256:15c4e32b6c55ff105bafe03e8c91c7ca1b2eda31bf9a7127326bb87887ee18fe
 jq:
-  size: 2255816
-  object_id: bc111219-86df-435f-60b6-7beb123b64bb
-  sha: sha256:020468de7539ce70ef1bceaf7cde2e8c4f2ca6c3afb84642aabc5c97d9fc2a0d
+  size: 2267912
+  object_id: 90e92a0c-ce56-4698-4511-90c1a53cd45e
+  sha: sha256:b1c22172dd303f3be49e935aa56aa48a8b7a46e0bc838b4997d3bb451495870f
 ripgrep.tar.gz:
   size: 2263077
   object_id: a2513a08-56b8-4844-6067-901f15123996
