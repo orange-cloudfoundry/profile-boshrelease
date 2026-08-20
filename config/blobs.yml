@@ -23,6 +23,6 @@ ripgrep.tar.gz:
   object_id: 8cbac0fa-2cb9-491f-677d-fd6b8872437d
   sha: sha256:33e15bcf1624b25cdd2a55813a47a2f95dbe126268203e76aa6a585d1e7b149c
 yq:
-  size: 13799586
-  object_id: 74bcab2d-9beb-423b-6504-b3af9eef65a1
-  sha: sha256:f67d8a6a2dc2308c961f83d5ba8707fd4c7c44ad77902fef87eb3a4646cdfa2a
+  size: 14180512
+  object_id: bbecbd0e-cd3f-4900-75bf-115e1d9ff9fa
+  sha: sha256:c5f056448f973ae7d39b5401949648a78f2dc1947d6a8eb65be60d5c504b9385
