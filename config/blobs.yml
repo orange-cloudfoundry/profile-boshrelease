@@ -7,9 +7,9 @@ bat.tar.gz:
   object_id: 9bc765d6-4e7e-4b34-6383-e73392a89af5
   sha: sha256:0dcd8ac79732c0d5b136f11f4ee00e581440e16a44eab5b3105b611bbf2cf191
 fd.tar.gz:
-  size: 1799129
-  object_id: 1ab6f856-fdd6-416a-6519-9b5854009143
-  sha: sha256:f6c95edb190c241df6fddc815a5bab4051444993ac5d92ddc6eec0e0dc2342c7
+  size: 1798931
+  object_id: 53cd6bd2-0f9c-44c3-590e-f7e7bbaad72a
+  sha: sha256:7e2d07fa2b8807642aaec67b7e2972a9fbe4db26fcb340a7372392db42b26694
 fping.tar.gz:
   size: 215522
   object_id: b0b92358-42a0-46a3-511e-b4b4f0040876
